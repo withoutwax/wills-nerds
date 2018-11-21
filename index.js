@@ -7,7 +7,6 @@ window.onload = function () {
 
     CMRotate.init('rotate-div', 200, 300, 350, 19, 600, backgroundImages, clickFn);
 
-
     /**
      * init
      *

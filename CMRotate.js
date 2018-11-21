@@ -242,7 +242,6 @@ var CMRotate = CMRotate || ( function () {
     }
 
     function onTouchStart(event) {
-        event.preventDefault();
         var mx = event.touches[0].pageY; // If wish to revert back to horizontal movement, use .pageX.
         onDown(mx);
     }
