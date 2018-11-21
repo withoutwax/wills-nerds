@@ -6,6 +6,7 @@ html, body {
 
     color: var(--Nerds-color);
     overflow: hidden;
+    position: fixed;
 }
 
 #About-Nerd {
