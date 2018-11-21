@@ -177,7 +177,7 @@ var CMRotate = CMRotate || ( function () {
                     description = "Birds, Biking, and Baking";
                     url = "https://www.chriszhu-design.com";
                     break;
-                case 1:
+                case 14:
                     name = "Will Kim";
                     description = "Art Student to Software Engineer 💻";
                     url = "https://withoutwax.me";

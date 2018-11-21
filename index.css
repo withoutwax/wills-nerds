@@ -65,3 +65,16 @@ html, body {
 .chand:active {
     cursor: url(images/hand-h.cur), move;
 }
+
+
+@media screen and (device-width : 375px) and (orientation: portrait) {
+    #Nerd {
+        font-size: 9rem;
+    }
+    #Nerd-description {
+        font-size: 2rem;
+    }
+    a {
+        font-size: 2rem;
+    }
+}

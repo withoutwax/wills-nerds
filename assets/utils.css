@@ -3,7 +3,6 @@
     --Nerds-position-x: 50vw;
     --Nerds-color: #3e3b3f; /* #343235 */
 }
-
 html, body {
     font-family: Neue Haas Grotesk,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
@@ -16,21 +15,21 @@ html, body {
     -o-user-select: none;
     user-select: none;
 
-    -webkit-text-size-adjust: none;
-    text-size-adjust: none;
 }
 h1 {
     font-weight: 600;
     font-size: 5rem;
 }
 p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #818285;
 }
 a {
     color: #ff0000;
     text-decoration: none;
+    font-size: 1rem;
+
 }
 a:hover {
     color: #000;
