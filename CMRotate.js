@@ -212,15 +212,12 @@ var CMRotate = CMRotate || ( function () {
     function onResize() {
         var sw, sh;
         if (document.documentElement) {
-            console.log('1');
             sw = document.documentElement.clientHeight;
             sh = document.documentElement.clientWidth;
         } else if (document.body.clientWidth) {
-            console.log('2');
             sw = document.body.clientHeight;
             sh = document.body.clientWidth;
         } else {
-            console.log('3');
             sw = window.innerHeight;
             sh = window.innerWidth;
         }

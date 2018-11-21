@@ -5,6 +5,7 @@ html, body {
     padding: 0;
 
     color: var(--Nerds-color);
+    overflow: hidden;
 }
 
 #About-Nerd {
