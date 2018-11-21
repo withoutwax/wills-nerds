@@ -67,7 +67,7 @@ html, body {
 }
 
 
-@media screen and (device-width : 375px) and (orientation: portrait) {
+@media screen and (max-device-width : 414px) and (orientation: portrait) {
     #Nerd {
         font-size: 9rem;
     }

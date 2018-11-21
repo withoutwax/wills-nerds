@@ -40,7 +40,7 @@ body {
     align-self: center;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-device-width : 414px) and (orientation: portrait) {
     #Back-to-Nerd {
         text-align: center;
         margin: 5vh 0 5vh 0;
