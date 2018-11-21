@@ -5,7 +5,8 @@ window.onload = function () {
                             "images/img11.jpg", "images/img12.jpg", "images/img13.jpg", "images/img14.jpg", "images/img15.jpg",
                             "images/img16.jpg", "images/img17.jpg", "images/img18.jpg"];
 
-    CMRotate.init('rotate-div', 200, 300, 100, 19, 400, backgroundImages, clickFn);
+    CMRotate.init('rotate-div', 200, 300, 350, 19, 600, backgroundImages, clickFn);
+
 
     /**
      * init
@@ -25,7 +26,7 @@ window.onload = function () {
     function clickFn(no) {
         if (no == 0) {
             // Chris Zhu
-            window.open('https://www.chriszhu-design.com','_blank');
+            // window.open('https://www.chriszhu-design.com','_blank');
         }
         // alert('click no - ' + (no + 1));
     }

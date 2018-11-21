@@ -168,8 +168,8 @@ var CMRotate = CMRotate || ( function () {
 
         // Will code ===================================
         if (item.plane.style.zIndex > 90) {
-            let name = 0;
-            let description = "lorem ipsum...";
+            let name = "Nerd No. " + item.id;
+            let description = "Waiting for another Nerd to join...";
             let url = "#";
             switch (item.id) {
                 case 0:
@@ -217,12 +217,12 @@ var CMRotate = CMRotate || ( function () {
             sh = document.documentElement.clientWidth;
         } else if (document.body.clientWidth) {
             console.log('2');
-            sw = document.body.clientWidth;
-            sh = document.body.clientHeight;
+            sw = document.body.clientHeight;
+            sh = document.body.clientWidth;
         } else {
             console.log('3');
-            sw = window.innerWidth;
-            sh = window.innerHeight;
+            sw = window.innerHeight;
+            sh = window.innerWidth;
         }
         _centerY = sw >> 1;
         _centerX = sh + _ty;

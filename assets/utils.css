@@ -1,5 +1,5 @@
 :root {
-    --Nerds-position-y: 35vh;
+    --Nerds-position-y: 40vh;
     --Nerds-position-x: 50vw;
     --Nerds-color: #3e3b3f; /* #343235 */
 }
@@ -15,8 +15,19 @@ html, body {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
-}
 
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+h1 {
+    font-weight: 600;
+    font-size: 5rem;
+}
+p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #818285;
+}
 a {
     color: #ff0000;
     text-decoration: none;
