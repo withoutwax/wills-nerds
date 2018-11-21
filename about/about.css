@@ -2,6 +2,17 @@ body {
     margin:auto;
 }
 
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: 10vw auto;
+    min-height: 100vh;
+    margin: 0px 10vw 0px 10vw;
+
+    align-content: center;
+
+}
+
 #Back-to-Nerd {
     margin-top: 10px;
     right: 0;
@@ -20,15 +31,7 @@ body {
     margin-top: 15px;
 }
 
-.about-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    min-height: 100vh;
-    margin: 0px 10vw 0px 10vw;
 
-    align-content: center;
-
-}
 #about-header {
     max-width: 40vw;
 
@@ -40,7 +43,7 @@ body {
     align-self: center;
 }
 
-@media screen and (max-device-width : 414px) and (orientation: portrait) {
+@media screen and (max-device-width : 425px) and (orientation: portrait) {
     #Back-to-Nerd {
         text-align: center;
         margin: 5vh 0 5vh 0;
