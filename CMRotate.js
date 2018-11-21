@@ -147,7 +147,7 @@ var CMRotate = CMRotate || ( function () {
                 pos.id = id;
                 pos.item = getItem(no, id);
             }
-            
+
             setPos(pos.item, sita);
         }
     }
@@ -165,6 +165,21 @@ var CMRotate = CMRotate || ( function () {
         movePlane(item.plane, imgPos.x, imgPos.y, sita + 90);
 
         item.plane.style.zIndex = zindex;
+
+        // Will test
+        if (item.plane.style.zIndex >= 94) {
+            let name = 0;
+            switch (item.id) {
+                case 0:
+                    name = "Chris";
+                    break;
+                case 1:
+                    name = "Will";
+                    break;
+            default:
+            }
+            document.getElementById("Nerds").innerHTML = name;
+        }
     }
 
     function circlePos(sita) {
@@ -363,4 +378,3 @@ if(!window.requestAnimationFrame){
             };
     })();
 }
-
