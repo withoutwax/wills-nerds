@@ -1,0 +1,49 @@
+html {
+
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 5rem;
+}
+p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+#Back-to-Nerd {
+    margin-top: 10px;
+    right: 0;
+    margin-right: 1vw;
+    position: absolute;
+    z-index: 2;
+
+    -webkit-transition: all .7s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all .7s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#Back-to-Nerd::after {
+    -webkit-transition: all .7s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all .7s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+#Back-to-Nerd:hover {
+    margin-top: 15px;
+}
+
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+
+    align-content: center;
+
+}
+#about-header {
+    max-width: 40vw;
+
+    text-align: right;
+    justify-self: flex-end;
+    margin-right: 25px;
+}
+#about-description {
+    align-self: center;
+}

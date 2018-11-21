@@ -170,20 +170,26 @@ var CMRotate = CMRotate || ( function () {
         if (item.plane.style.zIndex > 90) {
             let name = 0;
             let description = "lorem ipsum...";
+            let url = "#";
             switch (item.id) {
                 case 0:
                     name = "Chris Zhu";
                     description = "Birds, Biking, and Baking";
+                    url = "https://www.chriszhu-design.com";
                     break;
                 case 1:
                     name = "Will Kim";
-                    description = "lorem ipsum...."
+                    description = "Art Student to Software Engineer 💻";
+                    url = "https://withoutwax.me";
                     break;
             default:
             }
             document.getElementById("Nerd").innerHTML = name;
             document.getElementById("Nerd-description").innerHTML = description;
+            document.getElementById("Nerd-url").setAttribute('href', url);
         }
+
+
     }
 
     function circlePos(sita) {

@@ -1,0 +1,26 @@
+:root {
+    --Nerds-position-y: 35vh;
+    --Nerds-position-x: 50vw;
+    --Nerds-color: #3e3b3f; /* #343235 */
+}
+
+html, body {
+    font-family: Neue Haas Grotesk,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+}
