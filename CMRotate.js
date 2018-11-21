@@ -124,7 +124,7 @@ var CMRotate = CMRotate || ( function () {
         sita = (sita + 360) % 360;
         pos.pos = sita;
 
-        if (sita > 10 && sita < 170) {
+        if (sita > 170 && sita < 10) { // sita > 10 && sita < 170
             if (pos.item != null) {
                 movePlane(pos.item.plane, -5000, -5000, 0);
                 pos.item = null;
@@ -133,7 +133,7 @@ var CMRotate = CMRotate || ( function () {
             if (pos.item == null) {
                 var id, prev, prev_v, id_v;
 
-                if (sita > 170 && sita < 270) {
+                if (sita > 270 && sita < 170) { // sita > 170 && sita < 270
                     prev_v = 1;
                     id_v = -1;
                 } else {
@@ -158,7 +158,7 @@ var CMRotate = CMRotate || ( function () {
      */
     function setPos(item, sita) {
         var imgPos = circlePos(sita),
-            value = 270 - sita,
+            value = 180 - sita,
             abs = Math.abs(value),
             zindex = 100 - abs | 0;
 
@@ -167,7 +167,7 @@ var CMRotate = CMRotate || ( function () {
         item.plane.style.zIndex = zindex;
 
         // Will code ===================================
-        if (item.plane.style.zIndex >= 94) {
+        if (item.plane.style.zIndex > 90) {
             let name = 0;
             let description = "lorem ipsum...";
             switch (item.id) {
@@ -206,17 +206,20 @@ var CMRotate = CMRotate || ( function () {
     function onResize() {
         var sw, sh;
         if (document.documentElement) {
-            sw = document.documentElement.clientWidth;
-            sh = document.documentElement.clientHeight;
+            console.log('1');
+            sw = document.documentElement.clientHeight;
+            sh = document.documentElement.clientWidth;
         } else if (document.body.clientWidth) {
+            console.log('2');
             sw = document.body.clientWidth;
             sh = document.body.clientHeight;
         } else {
+            console.log('3');
             sw = window.innerWidth;
             sh = window.innerHeight;
         }
-        _centerX = sw >> 1;
-        _centerY = sh + _ty;
+        _centerY = sw >> 1;
+        _centerX = sh + _ty;
     }
 
 
@@ -236,12 +239,12 @@ var CMRotate = CMRotate || ( function () {
     }
 
     function onTouchStart(event) {
-        var mx = event.touches[0].pageX;
+        var mx = event.touches[0].pageY; // If wish to revert back to horizontal movement, use .pageX.
         onDown(mx);
     }
     function onTouchMove(event) {
         event.preventDefault();
-        var mx = event.touches[0].pageX;
+        var mx = event.touches[0].pageY;
         onMove(mx);
     }
     function onTouchEnd(event) {
@@ -249,11 +252,11 @@ var CMRotate = CMRotate || ( function () {
     }
 
     function onMouseDown(event) {
-        var mx = event.pageX;
+        var mx = event.pageY;
         onDown(mx);
     }
     function onMouseMove(event) {
-        var mx = event.pageX;
+        var mx = event.pageY;
         onMove(mx);
     }
     function onMouseUp(event) {

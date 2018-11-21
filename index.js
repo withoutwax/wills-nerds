@@ -5,7 +5,21 @@ window.onload = function () {
                             "images/img11.jpg", "images/img12.jpg", "images/img13.jpg", "images/img14.jpg", "images/img15.jpg",
                             "images/img16.jpg", "images/img17.jpg", "images/img18.jpg"];
 
-    CMRotate.init('rotate-div', 200, 300, 100, 12, 600, backgroundImages, clickFn);
+    CMRotate.init('rotate-div', 200, 300, 100, 19, 400, backgroundImages, clickFn);
+
+    /**
+     * init
+     *
+     * div - DIV element ID
+     * tw - Plane Width
+     * th - Plane Height
+     * ty - Y position distance from bottom
+     * gap - Gap between each Plane
+     * radius - Circle Radius
+     * bg - Background image Array
+     * fn - Mouse click function on each Plane
+     */
+
 
     // no = position on the array.
     function clickFn(no) {

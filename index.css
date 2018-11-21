@@ -1,3 +1,9 @@
+:root {
+  --Nerds-position-y: 35vh;
+  --Nerds-position-x: 50vw;
+
+}
+
 html, body {
     width:100%;
     height:100%;
@@ -16,25 +22,45 @@ html, body {
     -o-user-select: none;
     user-select: none;
 }
+.Nerds-container {
+  margin-left: var(--Nerds-position-x);
+  margin-top: var(--Nerds-position-y);
 
-p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 1.15;
-    color: #818285;
+  position: absolute;
+
+  display: grid;
+  text-align: left;
 }
-
 #Nerd {
     font-weight: 600;
     font-size: 5rem;
-    line-height: 1.15;
+    margin: auto;
+
 }
+#Nerd-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    color: #818285;
+    /* margin-left: 20px; */
+
+    /* margin: auto; */
+}
+#Nerd-url {
+    z-index: 22;
+}
+
+
 
 #rotate-div {
     overflow: hidden;
     position: relative;
     width:100%;
     height:100%;
+
+    transform: rotate(180deg);
+
+    /* border: 1px solid black; */
 }
 
 a {
