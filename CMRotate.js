@@ -166,19 +166,23 @@ var CMRotate = CMRotate || ( function () {
 
         item.plane.style.zIndex = zindex;
 
-        // Will test
+        // Will code ===================================
         if (item.plane.style.zIndex >= 94) {
             let name = 0;
+            let description = "lorem ipsum...";
             switch (item.id) {
                 case 0:
-                    name = "Chris";
+                    name = "Chris Zhu";
+                    description = "Birds, Biking, and Baking";
                     break;
                 case 1:
-                    name = "Will";
+                    name = "Will Kim";
+                    description = "lorem ipsum...."
                     break;
             default:
             }
-            document.getElementById("Nerds").innerHTML = name;
+            document.getElementById("Nerd").innerHTML = name;
+            document.getElementById("Nerd-description").innerHTML = description;
         }
     }
 
