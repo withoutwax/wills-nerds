@@ -177,10 +177,20 @@ var CMRotate = CMRotate || ( function () {
                     description = "Birds, Biking, and Baking";
                     url = "https://www.chriszhu-design.com";
                     break;
+                case 3:
+                    name = "Bo";
+                    description = "I am a UX/Product designer who believes in solving problems with practical, simple, and aesthetically beautiful design.";
+                    url = "https://www.linkedin.com/in/boyoung-nam-80bb33144/";
+                    break;
                 case 14:
                     name = "Will Kim";
                     description = "Art Student to Software Engineer 💻";
                     url = "https://withoutwax.me";
+                    break;
+                case 15:
+                    name = "Invely🍰💕";
+                    description = "💍";
+                    url = "https://www.instagram.com/little__rhoda/";
                     break;
             default:
             }
