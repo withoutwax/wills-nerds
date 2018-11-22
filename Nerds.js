@@ -17,6 +17,11 @@ function Nerds(nerd) {
                 description = "I am a UX/Product designer who believes in solving problems with practical, simple, and aesthetically beautiful design.";
                 url = "https://www.linkedin.com/in/boyoung-nam-80bb33144/";
                 break;
+            case 10:
+                name = "Thophles Williams";
+                description = "I'm a senior in the VisCom and Art & Tech department currently studying to be a UI/UX designer and/or developer. I work at BMW as a UI Design co-op";
+                url = "https://thophles.com";
+                break;
             case 14:
                 name = "Will Kim";
                 description = "Art Student to Software Engineer 💻";
