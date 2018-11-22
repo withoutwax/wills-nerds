@@ -5,6 +5,13 @@ window.onload = function () {
                             "images/img11.jpg", "images/img12.jpg", "images/img13.jpg", "images/will.jpg", "images/invely.jpg",
                             "images/img16.jpg", "images/img17.jpg", "images/img18.jpg"];
 
+                            /*
+                             * 00 - Chris Zhu
+                             * 03 - Boyoung Nam - Bo
+                             * 14 - Will Kim
+                             * 15 - Invely
+                             */
+
     CMRotate.init('rotate-div', 200, 300, 350, 19, 600, backgroundImages, clickFn);
 
     /**
@@ -19,7 +26,6 @@ window.onload = function () {
      * bg - Background image Array
      * fn - Mouse click function on each Plane
      */
-
 
     // no = position on the array.
     function clickFn(no) {
