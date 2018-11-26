@@ -27,6 +27,11 @@ function Nerds(nerd) {
                 description = "I am a graphic design student, food lover, dog lover, and a little bit weird.";
                 url = "https://www.annjiminwoo.com";
                 break;
+            case 7:
+                name = "Jung";
+                description = "I am a product + UIUX designer, who is designing experiences.";
+                url = "https://www.jungrey.com/";
+                break;
             case 8:
                 name = "Xue Liu";
                 description = "A visual designer and a takis lover.";
@@ -56,6 +61,11 @@ function Nerds(nerd) {
                 name = "Invely🍰💕";
                 description = "💍";
                 url = "https://www.instagram.com/little__rhoda/";
+                break;
+            case 17:
+                name = "Tisha Auguste";
+                description = "Tisha is a Senior at SAIC, studying graphic design and motion graphics. She's a part-time science nerd, aspiring polyglot, and full-time foodie.";
+                url = "https://laugus.myportfolio.com/";
                 break;
             case 18:
                 name = "Kaw kaw kaw";
