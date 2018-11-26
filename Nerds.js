@@ -77,6 +77,11 @@ function Nerds(nerd) {
                 description = "💍";
                 url = "https://www.instagram.com/little__rhoda/";
                 break;
+            case 16:
+                name = "Cat Cao";
+                description = "Catherine (Cat) Cao is a Canadian graphic designer and illustrator. She likes hiking and dogs, and is currently studying Visual Communication Design in the School of the Art Institute of Chicago.";
+                url = "https://www.caocatherine.com/";
+                break;
             case 17:
                 name = "Tisha Auguste";
                 description = "Tisha is a Senior at SAIC, studying graphic design and motion graphics. She's a part-time science nerd, aspiring polyglot, and full-time foodie.";
