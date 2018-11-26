@@ -12,6 +12,11 @@ function Nerds(nerd) {
                 description = "Birds, Biking, and Baking";
                 url = "https://www.chriszhu-design.com";
                 break;
+            case 1:
+                name = "Will Lee";
+                description = "Visual designer, Ux/Ui designer, photographer";
+                url = "https://willleee.com/";
+                break;
             case 2:
                 name = "Da Young Lee";
                 description = "Designer and Painter.";
