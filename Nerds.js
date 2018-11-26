@@ -29,8 +29,13 @@ function Nerds(nerd) {
                 break;
             case 10:
                 name = "Thophles Williams";
-                description = "I'm a senior in the VisCom and Art & Tech department currently studying to be a UI/UX designer and/or developer. I work at BMW as a UI Design co-op";
+                description = "I'm a senior in the VisCom and Art & Tech department currently studying to be a UI/UX designer and/or developer. I work at BMW as a UI Design co-op.";
                 url = "https://thophles.com";
+                break;
+            case 11:
+                name = "GoldNFlow";
+                description = "Korean Music Producer, Sound Designer, Drummer.";
+                url = "mailto:yghjklo@gmail.com";
                 break;
             case 14:
                 name = "Will Kim";
