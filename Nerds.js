@@ -12,6 +12,11 @@ function Nerds(nerd) {
                 description = "Birds, Biking, and Baking";
                 url = "https://www.chriszhu-design.com";
                 break;
+            case 2:
+                name = "Da Young Lee";
+                description = "Designer and Painter.";
+                url = "https://leedadesignnart.myportfolio.com/";
+                break;
             case 3:
                 name = "Bo";
                 description = "I am a UX/Product designer who believes in solving problems with practical, simple, and aesthetically beautiful design.";
@@ -36,6 +41,11 @@ function Nerds(nerd) {
                 name = "GoldNFlow";
                 description = "Korean Music Producer, Sound Designer, Drummer.";
                 url = "mailto:yghjklo@gmail.com";
+                break;
+            case 12:
+                name = "Sunny";
+                description = "Hi, I study political philosophy, law and.. pretend to study a bit of economics! I love old music as much as the old film camera.";
+                url = "https://www.instagram.com/belleamesun/";
                 break;
             case 14:
                 name = "Will Kim";
