@@ -37,6 +37,11 @@ function Nerds(nerd) {
                 description = "I am a graphic design student, food lover, dog lover, and a little bit weird.";
                 url = "https://www.annjiminwoo.com";
                 break;
+            case 6:
+                name = "Misaki";
+                description = "I'm a silly person who loves studying philosophy and cultural anthropology but also love UI/UX. Two things I cannot live without are probably music and dance.";
+                url = "https://www.linkedin.com/in/misakiueno/";
+                break;
             case 7:
                 name = "Jung";
                 description = "I am a product + UIUX designer, who is designing experiences.";
