@@ -22,6 +22,11 @@ function Nerds(nerd) {
                 description = "I am a graphic design student, food lover, dog lover, and a little bit weird.";
                 url = "https://www.annjiminwoo.com";
                 break;
+            case 8:
+                name = "Xue Liu";
+                description = "A visual designer and a takis lover.";
+                url = "https://www.byxueliu.com";
+                break;
             case 10:
                 name = "Thophles Williams";
                 description = "I'm a senior in the VisCom and Art & Tech department currently studying to be a UI/UX designer and/or developer. I work at BMW as a UI Design co-op";
@@ -36,6 +41,11 @@ function Nerds(nerd) {
                 name = "Invely🍰💕";
                 description = "💍";
                 url = "https://www.instagram.com/little__rhoda/";
+                break;
+            case 18:
+                name = "Kaw kaw kaw";
+                description = "Raven is a designbird who loves people watching. Habitat: SAIC Letterpress typeshop, SAIC Seevice Bureau. You can find me in exhibition openings and design events as well.";
+                url = "https://ravenmo.info/";
                 break;
         default:
         }
