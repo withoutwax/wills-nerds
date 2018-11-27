@@ -29,7 +29,7 @@ function Nerds(nerd) {
                 break;
             case 4:
                 name = "Sun";
-                description = "I am painter who love long walk on beach and short walk to Salmon don.";
+                description = "I am painter who loves long walk on beach and short walk to Salmon don.";
                 url = "https://sunahshin.com";
                 break;
             case 5:
