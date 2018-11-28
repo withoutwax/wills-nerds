@@ -52,6 +52,11 @@ function Nerds(nerd) {
                 description = "A visual designer and a takis lover.";
                 url = "https://www.byxueliu.com";
                 break;
+            case 9:
+                name = "Alison Kim";
+                description = "I'm an interdisciplinary artist taking advantage of the freedom at SAIC. The real passion is in the gaming industry - find me at Blizzard in a couple years ^^~ To provide for my future self, I am learning everything in film to graphic design (w/ a little coding on the side)";
+                url = "https://www.alisonchiyongkim.com/";
+                break;
             case 10:
                 name = "Thophles Williams";
                 description = "I'm a senior in the VisCom and Art & Tech department currently studying to be a UI/UX designer and/or developer. I work at BMW as a UI Design co-op.";
@@ -66,6 +71,11 @@ function Nerds(nerd) {
                 name = "Sunny";
                 description = "Hi, I study political philosophy, law and.. pretend to study a bit of economics! I love old music as much as the old film camera.";
                 url = "https://www.instagram.com/belleamesun/";
+                break;
+            case 13:
+                name = "Jungyun Koh";
+                description = "Hi! I am super interested in automobile. I love cars so much. I am studying interface design and 3D modeling.";
+                url = "https://jungyun-koh.squarespace.com";
                 break;
             case 14:
                 name = "Will Kim";

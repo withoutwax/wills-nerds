@@ -1,8 +1,8 @@
 window.onload = function () {
 
     var backgroundImages = ["images/chris.jpg", "images/will-lee.png", "images/dayoung-lee.jpg", "images/bo.jpg", "images/sunah.jpeg", "images/ann.jpeg",
-                            "images/misaki.jpg", "images/junghoe.jpg", "images/xue.jpeg", "images/img9.jpg", "images/theo.jpeg",
-                            "images/goldnflow.png", "images/sun.jpg", "images/img13.jpg", "images/will.jpg", "images/invely.jpg",
+                            "images/misaki.jpg", "images/junghoe.jpg", "images/xue.jpeg", "images/alison.jpg", "images/theo.jpeg",
+                            "images/goldnflow.png", "images/sun.jpg", "images/jungyun.jpeg", "images/will.jpg", "images/invely.jpg",
                             "images/cat.jpg", "images/tisha.jpg", "images/raven.jpeg"];
 
                             /*
