@@ -3,7 +3,7 @@ window.onload = function () {
     var backgroundImages = ["images/chris.jpg", "images/will-lee.png", "images/dayoung-lee.jpg", "images/bo.jpg", "images/sunah.jpeg", "images/ann.jpeg",
                             "images/misaki.jpg", "images/junghoe.jpg", "images/xue.jpeg", "images/alison.jpg", "images/theo.jpeg",
                             "images/goldnflow.png", "images/sun.jpg", "images/jungyun.jpeg", "images/will.jpg", "images/invely.jpg",
-                            "images/cat.jpg", "images/tisha.jpg", "images/raven.jpeg"];
+                            "images/cat.jpg", "images/tisha.jpg", "images/raven.jpeg", "images/img1.jpg"];
 
                             /*
                              * 00 - Chris Zhu
@@ -13,6 +13,7 @@ window.onload = function () {
                              */
 
     CMRotate.init('rotate-div', 200, 300, 350, 19, 600, backgroundImages, clickFn);
+                                            /* 18 -- if we want to add additional Nerd */
 
     /**
      * init
@@ -21,7 +22,7 @@ window.onload = function () {
      * tw - Plane Width
      * th - Plane Height
      * ty - Y position distance from bottom
-     * gap - Gap between each Plane
+     * gap - Gap between each Plane -> Reduce the number if there's more Nerds you want to add.
      * radius - Circle Radius
      * bg - Background image Array
      * fn - Mouse click function on each Plane
